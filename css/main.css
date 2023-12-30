@@ -12,6 +12,13 @@
     font-weight: normal;
 }
 
+@font-face {
+    font-family: "Roboto";
+    src: url("../fonts/Roboto-Regular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
 :root {
     --color-white: #E2E8F0;
     --color-white-bg : #e2e8f081;
@@ -22,7 +29,7 @@
 }
 
 body {
-    font-family: "NovaSquare";
+    font-family: "Roboto";
     background-color: var(--color-dark);
 }
 
