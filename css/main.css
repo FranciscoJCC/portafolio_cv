@@ -56,9 +56,20 @@ h1 {
     border-radius: 20px;
 }
 
+.bg-green{
+    background-color: var(--color-green);
+}
+
 /* 
     NAVBAR
 */
+
+.pt-icon-navbar{
+    background-color: var(--color-green);
+    border-radius: 5px;
+    padding: 5px;
+}
+
 .pt-nav-item-selected {
     background-color: var(--color-green);
     border-radius: 20px;
@@ -125,6 +136,9 @@ h1 {
     font-size: .8rem;
 }
 
+.technologies-badges > ul > li {
+    padding-bottom: 500px;
+}
 
 /* TIMELINE */
 .timeline {
@@ -316,3 +330,5 @@ h1 {
         display: none;
     }
 }
+
+
