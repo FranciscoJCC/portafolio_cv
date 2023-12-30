@@ -123,22 +123,16 @@ h1 {
 
 .technologies-badges li{
     display: inline;
-    padding-left: 10px; 
-}
-
-.technologies-badges li{
-    font-family: "Quicksand";
+    padding-left: 10px;
     color: var(--color-green);
     font-weight: 600;
     background-color: var(--color-green-bk);
     padding: 3px 10px 5px 10px;
     border-radius: 20px;
     font-size: .8rem;
+    line-height: 2rem; 
 }
 
-.technologies-badges > ul > li {
-    padding-bottom: 500px;
-}
 
 /* TIMELINE */
 .timeline {
